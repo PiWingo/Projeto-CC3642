@@ -1,0 +1,191 @@
+\hypertarget{class_veiculo}{}\section{Referência da Classe Veiculo}
+\label{class_veiculo}\index{Veiculo@{Veiculo}}
+
+
+Classe com os atributos gerais de um \mbox{\hyperlink{class_veiculo}{Veiculo}}, serve de pai para veiculos especificos(motos, carros, etc...).  
+
+
+
+
+Diagrama de hierarquia para Veiculo\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{class_veiculo__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_veiculo_a47f634662187ef78027f99a3ab6708a5}{Veiculo}} (int \mbox{\hyperlink{class_veiculo_a069917a284297fe5b385258b2afd9ad6}{x}}, int \mbox{\hyperlink{class_veiculo_af25046404db7c2786c0d9e468bb1fb64}{y}})
+\item 
+void \mbox{\hyperlink{class_veiculo_a3341b0ed6b4d34db990a31f7a499ae80}{move}} ()
+\item 
+void \mbox{\hyperlink{class_veiculo_af565d4a9368f62efe67608dbcf18ef2d}{check\+Fab}} ()
+\item 
+void \mbox{\hyperlink{class_veiculo_a84b2207a013e6cd869959b73a93864b8}{setX}} (int \mbox{\hyperlink{class_veiculo_a069917a284297fe5b385258b2afd9ad6}{x}})
+\item 
+void \mbox{\hyperlink{class_veiculo_a6d69355a635fa5c8d40ec87e3d6f9c10}{set\+Vel}} (int vel)
+\item 
+void \mbox{\hyperlink{class_veiculo_a57cb54424b47643d8b388c72dbaf43b1}{setY}} (int \mbox{\hyperlink{class_veiculo_af25046404db7c2786c0d9e468bb1fb64}{y}})
+\item 
+int \mbox{\hyperlink{class_veiculo_a235b29e1e25ec8c769b20fb2aeba8404}{getX}} ()
+\item 
+int \mbox{\hyperlink{class_veiculo_ab43d327b067e15c1bc96cee94d495049}{get\+Vel}} ()
+\item 
+int \mbox{\hyperlink{class_veiculo_a06b2a923e51186673a016f75d10363d3}{getY}} ()
+\item 
+boolean \mbox{\hyperlink{class_veiculo_a7509d7e1ba79a662b145f8907c4e97c1}{get\+Fab}} ()
+\item 
+void \mbox{\hyperlink{class_veiculo_af740c4bac90ecf0936dbdab300cf5776}{set\+Fab}} (boolean fab)
+\end{DoxyCompactItemize}
+\subsection*{Atributos Protegidos}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_veiculo_a2edf5e3132b1c2504c441dc095dc7e0e}{velocidade}}
+\begin{DoxyCompactList}\small\item\em Atributo que representa a velocidade que o veiculo se movimenta no mapa. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_veiculo_a23d377a69bdf558ebedb5bc35dcdebf5}{fabrica}}
+\begin{DoxyCompactList}\small\item\em Atributo que representa se o veiculo está em cima de uma fábrica. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atributos Privados}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_veiculo_af25046404db7c2786c0d9e468bb1fb64}{y}}
+\begin{DoxyCompactList}\small\item\em Atributo que representa o eixo y do veiculo no mapa. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_veiculo_a069917a284297fe5b385258b2afd9ad6}{x}}
+\begin{DoxyCompactList}\small\item\em Atributo que representa o eixo x do veiculo no mapa. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{class_veiculo_a6bc5886e61340672e69bd638936ec1d5}{cor}}
+\begin{DoxyCompactList}\small\item\em Atributo que representa a cor do veiculo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição detalhada}
+Classe com os atributos gerais de um \mbox{\hyperlink{class_veiculo}{Veiculo}}, serve de pai para veiculos especificos(motos, carros, etc...). 
+
+\subsection{Construtores e Destrutores}
+\mbox{\Hypertarget{class_veiculo_a47f634662187ef78027f99a3ab6708a5}\label{class_veiculo_a47f634662187ef78027f99a3ab6708a5}} 
+\index{Veiculo@{Veiculo}!Veiculo@{Veiculo}}
+\index{Veiculo@{Veiculo}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{Veiculo()}{Veiculo()}}
+{\footnotesize\ttfamily Veiculo.\+Veiculo (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+$<$ Método utilizado como construtor padrão. 
+
+\subsection{Métodos}
+\mbox{\Hypertarget{class_veiculo_af565d4a9368f62efe67608dbcf18ef2d}\label{class_veiculo_af565d4a9368f62efe67608dbcf18ef2d}} 
+\index{Veiculo@{Veiculo}!check\+Fab@{check\+Fab}}
+\index{check\+Fab@{check\+Fab}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{check\+Fab()}{checkFab()}}
+{\footnotesize\ttfamily void Veiculo.\+check\+Fab (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+$<$ Método que verifica se o veiculo está sobre uma fábrica, se estiver, muda o booleano fabrica pra true. \mbox{\Hypertarget{class_veiculo_a7509d7e1ba79a662b145f8907c4e97c1}\label{class_veiculo_a7509d7e1ba79a662b145f8907c4e97c1}} 
+\index{Veiculo@{Veiculo}!get\+Fab@{get\+Fab}}
+\index{get\+Fab@{get\+Fab}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{get\+Fab()}{getFab()}}
+{\footnotesize\ttfamily boolean Veiculo.\+get\+Fab (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+$<$ Método get do atributo fabrica \mbox{\Hypertarget{class_veiculo_ab43d327b067e15c1bc96cee94d495049}\label{class_veiculo_ab43d327b067e15c1bc96cee94d495049}} 
+\index{Veiculo@{Veiculo}!get\+Vel@{get\+Vel}}
+\index{get\+Vel@{get\+Vel}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{get\+Vel()}{getVel()}}
+{\footnotesize\ttfamily int Veiculo.\+get\+Vel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+$<$ Método get do atributo velocidade \mbox{\Hypertarget{class_veiculo_a235b29e1e25ec8c769b20fb2aeba8404}\label{class_veiculo_a235b29e1e25ec8c769b20fb2aeba8404}} 
+\index{Veiculo@{Veiculo}!getX@{getX}}
+\index{getX@{getX}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{get\+X()}{getX()}}
+{\footnotesize\ttfamily int Veiculo.\+getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+$<$ Método get do atributo x \mbox{\Hypertarget{class_veiculo_a06b2a923e51186673a016f75d10363d3}\label{class_veiculo_a06b2a923e51186673a016f75d10363d3}} 
+\index{Veiculo@{Veiculo}!getY@{getY}}
+\index{getY@{getY}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{get\+Y()}{getY()}}
+{\footnotesize\ttfamily int Veiculo.\+getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+$<$ Método get do atributo y \mbox{\Hypertarget{class_veiculo_a3341b0ed6b4d34db990a31f7a499ae80}\label{class_veiculo_a3341b0ed6b4d34db990a31f7a499ae80}} 
+\index{Veiculo@{Veiculo}!move@{move}}
+\index{move@{move}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Veiculo.\+move (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+$<$ Método que move os veiculos. \mbox{\Hypertarget{class_veiculo_af740c4bac90ecf0936dbdab300cf5776}\label{class_veiculo_af740c4bac90ecf0936dbdab300cf5776}} 
+\index{Veiculo@{Veiculo}!set\+Fab@{set\+Fab}}
+\index{set\+Fab@{set\+Fab}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{set\+Fab()}{setFab()}}
+{\footnotesize\ttfamily void Veiculo.\+set\+Fab (\begin{DoxyParamCaption}\item[{boolean}]{fab }\end{DoxyParamCaption})}
+
+$<$ Método get do atributo fabrica \mbox{\Hypertarget{class_veiculo_a6d69355a635fa5c8d40ec87e3d6f9c10}\label{class_veiculo_a6d69355a635fa5c8d40ec87e3d6f9c10}} 
+\index{Veiculo@{Veiculo}!set\+Vel@{set\+Vel}}
+\index{set\+Vel@{set\+Vel}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{set\+Vel()}{setVel()}}
+{\footnotesize\ttfamily void Veiculo.\+set\+Vel (\begin{DoxyParamCaption}\item[{int}]{vel }\end{DoxyParamCaption})}
+
+$<$ Método set do atributo velocidade \mbox{\Hypertarget{class_veiculo_a84b2207a013e6cd869959b73a93864b8}\label{class_veiculo_a84b2207a013e6cd869959b73a93864b8}} 
+\index{Veiculo@{Veiculo}!setX@{setX}}
+\index{setX@{setX}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{set\+X()}{setX()}}
+{\footnotesize\ttfamily void Veiculo.\+setX (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+$<$ Método set do atributo x \mbox{\Hypertarget{class_veiculo_a57cb54424b47643d8b388c72dbaf43b1}\label{class_veiculo_a57cb54424b47643d8b388c72dbaf43b1}} 
+\index{Veiculo@{Veiculo}!setY@{setY}}
+\index{setY@{setY}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{set\+Y()}{setY()}}
+{\footnotesize\ttfamily void Veiculo.\+setY (\begin{DoxyParamCaption}\item[{int}]{y }\end{DoxyParamCaption})}
+
+$<$ Método set do atributo y 
+
+\subsection{Atributos}
+\mbox{\Hypertarget{class_veiculo_a6bc5886e61340672e69bd638936ec1d5}\label{class_veiculo_a6bc5886e61340672e69bd638936ec1d5}} 
+\index{Veiculo@{Veiculo}!cor@{cor}}
+\index{cor@{cor}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{cor}{cor}}
+{\footnotesize\ttfamily String Veiculo.\+cor\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Atributo que representa a cor do veiculo. 
+
+\mbox{\Hypertarget{class_veiculo_a23d377a69bdf558ebedb5bc35dcdebf5}\label{class_veiculo_a23d377a69bdf558ebedb5bc35dcdebf5}} 
+\index{Veiculo@{Veiculo}!fabrica@{fabrica}}
+\index{fabrica@{fabrica}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{fabrica}{fabrica}}
+{\footnotesize\ttfamily boolean Veiculo.\+fabrica\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Atributo que representa se o veiculo está em cima de uma fábrica. 
+
+\mbox{\Hypertarget{class_veiculo_a2edf5e3132b1c2504c441dc095dc7e0e}\label{class_veiculo_a2edf5e3132b1c2504c441dc095dc7e0e}} 
+\index{Veiculo@{Veiculo}!velocidade@{velocidade}}
+\index{velocidade@{velocidade}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{velocidade}{velocidade}}
+{\footnotesize\ttfamily int Veiculo.\+velocidade\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Atributo que representa a velocidade que o veiculo se movimenta no mapa. 
+
+\mbox{\Hypertarget{class_veiculo_a069917a284297fe5b385258b2afd9ad6}\label{class_veiculo_a069917a284297fe5b385258b2afd9ad6}} 
+\index{Veiculo@{Veiculo}!x@{x}}
+\index{x@{x}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily int Veiculo.\+x\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Atributo que representa o eixo x do veiculo no mapa. 
+
+\mbox{\Hypertarget{class_veiculo_af25046404db7c2786c0d9e468bb1fb64}\label{class_veiculo_af25046404db7c2786c0d9e468bb1fb64}} 
+\index{Veiculo@{Veiculo}!y@{y}}
+\index{y@{y}!Veiculo@{Veiculo}}
+\subsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily int Veiculo.\+y\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Atributo que representa o eixo y do veiculo no mapa. 
+
+
+
+A documentação para essa classe foi gerada a partir do seguinte arquivo\+:\begin{DoxyCompactItemize}
+\item 
+Projeto C\+C3642/\+App/\mbox{\hyperlink{_veiculo_8java}{Veiculo.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,91 @@
+\hypertarget{class_mundo}{}\section{Referência da Classe Mundo}
+\label{class_mundo}\index{Mundo@{Mundo}}
+
+
+Classe que representa o mundo em que os veiculos se movem.  
+
+
+\subsection*{Métodos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_mundo_a89da5526d6fa79801cfa48b587aa8343}{cria\+Mundo}} (Array\+List$<$ \mbox{\hyperlink{class_moto}{Moto}} $>$ mot, Array\+List$<$ \mbox{\hyperlink{class_carro}{Carro}} $>$ car, Array\+List$<$ \mbox{\hyperlink{class_caminhao}{Caminhao}} $>$ cam)
+\item 
+void \mbox{\hyperlink{class_mundo_aaf8ab7632e91cf6b92d8beb031858de1}{check\+Fab}} (Array\+List$<$ \mbox{\hyperlink{class_moto}{Moto}} $>$ mot, Array\+List$<$ \mbox{\hyperlink{class_carro}{Carro}} $>$ car, Array\+List$<$ \mbox{\hyperlink{class_caminhao}{Caminhao}} $>$ cam)
+\item 
+void \mbox{\hyperlink{class_mundo_a0317827fd7dc86705d5ad3fb86d61741}{check\+Del}} (Array\+List$<$ \mbox{\hyperlink{class_moto}{Moto}} $>$ mot, Array\+List$<$ \mbox{\hyperlink{class_carro}{Carro}} $>$ car, Array\+List$<$ \mbox{\hyperlink{class_caminhao}{Caminhao}} $>$ cam)
+\item 
+void \mbox{\hyperlink{class_mundo_a7c0f57fc41e5712a905bc836c9d1f9c5}{con\+Int2\+Str}} ()
+\item 
+void \mbox{\hyperlink{class_mundo_a52455726daee2575ad03b11441fea89e}{imprime\+MundoS}} (Array\+List$<$ \mbox{\hyperlink{class_moto}{Moto}} $>$ mot, Array\+List$<$ \mbox{\hyperlink{class_carro}{Carro}} $>$ car, Array\+List$<$ \mbox{\hyperlink{class_caminhao}{Caminhao}} $>$ cam)
+\end{DoxyCompactItemize}
+\subsection*{Atributos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_mundo_a8332b2d52b9f317338a4d6cbe10bbcbb}{mapa}} \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} = new int\mbox{[}30\mbox{]}\mbox{[}60\mbox{]}
+\begin{DoxyCompactList}\small\item\em Atributo para representar o mundo em forma de inteiros. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{class_mundo_ac3b4e49cf251690a1ad421b3e8458ec6}{MapaS}} \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} = new String\mbox{[}30\mbox{]}\mbox{[}60\mbox{]}
+\begin{DoxyCompactList}\small\item\em Atributo para representar o mundo em forma de String(melhor visualização). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descrição detalhada}
+Classe que representa o mundo em que os veiculos se movem. 
+
+\subsection{Métodos}
+\mbox{\Hypertarget{class_mundo_a0317827fd7dc86705d5ad3fb86d61741}\label{class_mundo_a0317827fd7dc86705d5ad3fb86d61741}} 
+\index{Mundo@{Mundo}!check\+Del@{check\+Del}}
+\index{check\+Del@{check\+Del}!Mundo@{Mundo}}
+\subsubsection{\texorpdfstring{check\+Del()}{checkDel()}}
+{\footnotesize\ttfamily void Mundo.\+check\+Del (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{class_moto}{Moto}} $>$}]{mot,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_carro}{Carro}} $>$}]{car,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_caminhao}{Caminhao}} $>$}]{cam }\end{DoxyParamCaption})}
+
+$<$ Método que verifica as posições dos veiculos, se estiverem, remove o que tem menor velocidade do mapa, se tiverem velocidade igual, remove os dois. \mbox{\Hypertarget{class_mundo_aaf8ab7632e91cf6b92d8beb031858de1}\label{class_mundo_aaf8ab7632e91cf6b92d8beb031858de1}} 
+\index{Mundo@{Mundo}!check\+Fab@{check\+Fab}}
+\index{check\+Fab@{check\+Fab}!Mundo@{Mundo}}
+\subsubsection{\texorpdfstring{check\+Fab()}{checkFab()}}
+{\footnotesize\ttfamily void Mundo.\+check\+Fab (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{class_moto}{Moto}} $>$}]{mot,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_carro}{Carro}} $>$}]{car,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_caminhao}{Caminhao}} $>$}]{cam }\end{DoxyParamCaption})}
+
+$<$ Método que verifica se o veiculo está sobre uma fabrica, se sim, gera o veiculo em cima dela. \mbox{\Hypertarget{class_mundo_a7c0f57fc41e5712a905bc836c9d1f9c5}\label{class_mundo_a7c0f57fc41e5712a905bc836c9d1f9c5}} 
+\index{Mundo@{Mundo}!con\+Int2\+Str@{con\+Int2\+Str}}
+\index{con\+Int2\+Str@{con\+Int2\+Str}!Mundo@{Mundo}}
+\subsubsection{\texorpdfstring{con\+Int2\+Str()}{conInt2Str()}}
+{\footnotesize\ttfamily void Mundo.\+con\+Int2\+Str (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+$<$ Método que gera um mapa no formato string apartir do mapa no formato de inteiros. \mbox{\Hypertarget{class_mundo_a89da5526d6fa79801cfa48b587aa8343}\label{class_mundo_a89da5526d6fa79801cfa48b587aa8343}} 
+\index{Mundo@{Mundo}!cria\+Mundo@{cria\+Mundo}}
+\index{cria\+Mundo@{cria\+Mundo}!Mundo@{Mundo}}
+\subsubsection{\texorpdfstring{cria\+Mundo()}{criaMundo()}}
+{\footnotesize\ttfamily void Mundo.\+cria\+Mundo (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{class_moto}{Moto}} $>$}]{mot,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_carro}{Carro}} $>$}]{car,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_caminhao}{Caminhao}} $>$}]{cam }\end{DoxyParamCaption})}
+
+$<$Método que cria o mapa com os veiculos nele. \mbox{\Hypertarget{class_mundo_a52455726daee2575ad03b11441fea89e}\label{class_mundo_a52455726daee2575ad03b11441fea89e}} 
+\index{Mundo@{Mundo}!imprime\+MundoS@{imprime\+MundoS}}
+\index{imprime\+MundoS@{imprime\+MundoS}!Mundo@{Mundo}}
+\subsubsection{\texorpdfstring{imprime\+Mundo\+S()}{imprimeMundoS()}}
+{\footnotesize\ttfamily void Mundo.\+imprime\+MundoS (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{class_moto}{Moto}} $>$}]{mot,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_carro}{Carro}} $>$}]{car,  }\item[{Array\+List$<$ \mbox{\hyperlink{class_caminhao}{Caminhao}} $>$}]{cam }\end{DoxyParamCaption})}
+
+$<$ Método que imprime o mapa no formato de string. 
+
+\subsection{Atributos}
+\mbox{\Hypertarget{class_mundo_a8332b2d52b9f317338a4d6cbe10bbcbb}\label{class_mundo_a8332b2d52b9f317338a4d6cbe10bbcbb}} 
+\index{Mundo@{Mundo}!mapa@{mapa}}
+\index{mapa@{mapa}!Mundo@{Mundo}}
+\subsubsection{\texorpdfstring{mapa}{mapa}}
+{\footnotesize\ttfamily int Mundo.\+mapa\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} = new int\mbox{[}30\mbox{]}\mbox{[}60\mbox{]}}
+
+
+
+Atributo para representar o mundo em forma de inteiros. 
+
+\mbox{\Hypertarget{class_mundo_ac3b4e49cf251690a1ad421b3e8458ec6}\label{class_mundo_ac3b4e49cf251690a1ad421b3e8458ec6}} 
+\index{Mundo@{Mundo}!MapaS@{MapaS}}
+\index{MapaS@{MapaS}!Mundo@{Mundo}}
+\subsubsection{\texorpdfstring{MapaS}{MapaS}}
+{\footnotesize\ttfamily String Mundo.\+MapaS\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} = new String\mbox{[}30\mbox{]}\mbox{[}60\mbox{]}}
+
+
+
+Atributo para representar o mundo em forma de String(melhor visualização). 
+
+
+
+A documentação para essa classe foi gerada a partir do seguinte arquivo\+:\begin{DoxyCompactItemize}
+\item 
+Projeto C\+C3642/\+App/\mbox{\hyperlink{_mundo_8java}{Mundo.\+java}}\end{DoxyCompactItemize}
